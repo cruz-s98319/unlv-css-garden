@@ -1,7 +1,71 @@
 a {
-    text-decoration: none;
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+main {
+    background-color: gray;
+    width: 90%;
+    margin: 0 auto;
 }
 
 body {
-    background: #0000FF;
+    background: #fda286;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: rgb(200, 149, 216);
+    box-shadow: 2px 2px 4px black;
+}
+
+aside {
+    background-color: #a5bde7;
+    box-shadow: 2px 2px 4px black;
+}
+
+nav, aside {
+    color: purple;
+}
+
+section {
+    border: 1px double red;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 5px 5px 4px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+nav h3 {
+    color: white;
+}
+
+aside h3 {
+    color: red;
 }
